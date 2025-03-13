@@ -1,5 +1,29 @@
+:root {
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+  --WHITE: #ffffff;
+  --SLATE: #434455;
+  --CLOUD: #f4f4fd;
+  --OCEAN: #404bbf;
+}
+/* globaL style rules */
 body {
-    background-color:  #ffffff;
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-  }
+  background-color: var(--WHITE);
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+}
+
+.logo {
+  text-transform: uppercase;
+  color: var(--IRIS);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-family: "Raleway", sans-serif;
+}
+
+.part-of-logo {
+  color: var(--NAVY-BLUE);
+}
+
